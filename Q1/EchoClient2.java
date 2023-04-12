@@ -3,6 +3,7 @@ import java.net.*;
 
 public class EchoClient2 {
     public static void main(String[] args) throws IOException {
+        System.out.println(1);
 
         String serverHostname = new String ("127.0.0.1");
 
@@ -42,6 +43,7 @@ public class EchoClient2 {
             if (userInput.equals("Bye."))
                 break;
 
+            //test
 	    System.out.println("echo: " + in.readLine());
 	   }
 
